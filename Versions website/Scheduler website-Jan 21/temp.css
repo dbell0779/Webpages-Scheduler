@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+.plusMinus button{
+	padding: 0;
+	border: none;
+	background: none;
+}
+
+table{
+	width: 100%;
+	text-align: center;
+	border-bottom: solid;
+}
+table th{
+	white-space:nowrap;
+
+	text-align: center;
+	border-bottom: solid;
+}
+table tr td{
+	background-color: orange;
+}
+
+ .clearance h5{
+	margin-left:35% ;
+}
+.checkbox{
+	height: 10px;
+}

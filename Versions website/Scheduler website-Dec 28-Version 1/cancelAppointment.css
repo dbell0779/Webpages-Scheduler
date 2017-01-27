@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+html,
+body {
+  height: 100%;
+  background-color: #333;
+  margin: 0;
+  color:#fff;
+	
+}
+
+.head h3{
+	margin-top: 0px;
+	color:#fff;
+	display: inline;
+}
+
+.right .dropdown{
+	display: inline;
+	
+}
+
+.dropdown button{
+	background: #2E2E2E;
+	border: none;
+}
+.right{
+	display:inline;
+	color:#fff;
+	float:right;
+}
+
+.head{
+	padding:15px;
+	background-color: #2E2E2E;
+}
+.caret {
+	margin-left: 1%;
+    border-width: 8px;
+}
+body h3{
+	color:#fff;
+}
+.container{
+	
+	width: 600px;
+	height: 400px;
+	margin-top: 10%;
+	margin-left: auto;
+	margin-right:auto;
+	border:solid;
+	border-radius:25px;
+	background-color: #4D4D4D;
+	
+}
+.container h3{
+	text-align: center;
+}
+.appointment table{
+	margin-top:5%;
+	margin-bottom: 5%;
+	white-space: nowrap;
+}
+ textarea{
+	height: 100px;
+	width: 80%;
+
+}
+.innerTh{
+	padding-left: 10%;
+}
+.container button{
+	float:right;
+	margin-right: 5%
+	
+}
+.inner2{
+	margin-top:5%;
+	margin-left: 10%;
+	margin-bottom:3%;
+}

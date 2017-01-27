@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+body p{
+	 color: #fff;
+}
+body h2{
+	color: #fff;
+}
+.bookAppointment{
+	
+	width: 500px;
+	height: 300px;
+	text-align: center;
+	margin-top: 10%;
+	margin-left: auto;
+	margin-right:auto;
+	border:solid;
+	border-color: white;
+	border-radius:25px;
+	background-color: #4D4D4D;
+	
+}
+
+.bookAppointment table{
+	margin-top: 7%;
+	margin-left: auto;
+	margin-right:auto;	
+	margin-bottom: 8%;
+	
+}
+
+ .drop{
+	padding-left: 5%;
+	padding-bottom: 5%; 
+}

@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+
+.employeeHolder{
+	width: 70%;
+	background-color: mediumpurple;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.containerUnder{
+	margin-top: 2%;
+	width: auto;
+	display: inline-flex;
+	background-color: chartreuse;
+
+}
+.rightCalendar{
+	width: 800px;
+	height: 500px;
+	background-color: orange;
+	
+}
+.leftServices{
+	margin-left: 5%;
+	width: 500px;
+	background-color: deeppink;
+}
+.submitBtn{
+	float: right;
+	margin-top: 2%;
+	
+}
+.nameInfo table tr{
+	height:40px;
+
+}
+.heading{
+	width: 100%;
+	border-bottom: solid;
+	border-bottom-color: black;
+}
+.heading h5{
+	float: left;
+}
+.heading .plusMinus{
+	margin-left: 95%;	
+}
+
+.plusMinus button{
+	padding: 0;
+	border: none;
+	background: none;
+}
+.serviceType{
+	display: inline-flex;
+	width: 100%;
+}
+.serviceName{
+	display:inline-flex;
+	margin-left: 5%;
+}
+.serviceOffered{
+	width: 100%;
+}
+
+.infoCategory .type{
+	display: inline-flex;
+}
+.infoCategory .name{
+	margin-left: 5%;
+	display:inline-flex;
+}

@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+tbody tr td{
+	background-color: #333;
+}
+.outContainer{
+	padding-top: 2%;
+	text-align: center;
+
+}
+.container{
+	
+	display: inline-flex;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	background-color: #4D4D4D;
+	border:solid;
+	border-radius:25px;
+	width: auto;
+}
+.left{
+	color:white;
+	padding-top:2%;
+}
+.left .test{
+	
+	padding-top: 10%;
+}
+.right{
+	padding-top: 1%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.rightBtn{
+	
+	padding-top: 5%;
+}
+
+
+

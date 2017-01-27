@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+html,
+body {
+  height: 100%;
+  background-color: #333;
+  margin: 0;
+  color:#fff;
+	
+}
+
+.head h3{
+	margin-top: 0px;
+	color:#fff;
+	display: inline;
+}
+
+.hright .dropdown{
+	display: inline;
+}
+
+.dropdown button{
+	background: #2E2E2E;
+	border: none;
+}
+.hright{
+	display:inline;
+	color:#fff;
+	float:right;
+}
+
+.head{
+	padding:15px;
+	background-color: #2E2E2E;
+}
+.container{
+	margin:0;
+	padding: 0;
+	display: inline-flex;
+	width: 100%;
+	height:100%;
+
+}
+
+.container .leftNav{
+	background-color: #2E2E2E;
+	height: 100%;
+	width:200px;
+	
+}
+
+.container .rightContent{
+
+	height:100%;
+	width: 100%;
+	margin: 0;
+}
+.container .leftNav ul{
+	list-style-type: none;
+	margin:0;
+	padding: 0;
+}
+.container .leftNav ul li{
+	margin:0;
+	list-style-type: none;
+	text-decoration: none;
+}
+.panel-group{
+	margin:0;
+	
+}
+.leftNav h4{
+	text-align: center;
+}
+.rightContent h2{
+	text-align: center;
+	padding-bottom:2%;
+}
+.rightContent .appHolder{
+	margin-left: auto;
+	margin-right: auto;
+	width:50%;
+}
+
+.caret {
+	margin-left: 1%;
+    border-width: 8px;
+}
+.cname{
+	display: inline;
+	padding-left: 10%;
+
+}
+.btnApp{
+	padding:0;
+	margin:0;
+	border: none;
+	display: inline;
+	float: right;
+	
+}
+
+table{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+table tr td{
+	width: 50%;
+}
+table tr td label{
+	color: black;
+}
+
