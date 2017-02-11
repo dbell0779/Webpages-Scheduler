@@ -2,14 +2,14 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Pending Appointment</title>
+<title>View Client's</title>
 	<link href="css/bootstrap.min.css" rel="stylesheet">
   	<link href="masterAdminStyle.css" rel="stylesheet">
-   	<link href="pendingAppAdmin.css" rel="stylesheet">
+   	<link href="viewClientAdmin.css" rel="stylesheet">
 </head>
 
 <body>
-	<div class="head">
+<div class="head">
 		<h3>Scheduler App</h3>
 			<div class="hright">
 				<label class="username">Admin User</label>
@@ -17,7 +17,7 @@
 					<button type="button" data-toggle="dropdown">
 					<span class="caret"></span></button>
 					<ul class="dropdown-menu dropdown-menu-right">
-					<li><a href="adminEditProfile.html">Edit Profile</a></li>
+					<li><a href="/partials/adminEditProfile.html">Edit Profile</a></li>
 					<li><a href="#">Logout</a></li>
 					</ul>
 				</div>
@@ -38,9 +38,9 @@
     					<div id="collapse10009" class="panel-collapse collapse">
      						 <div class="panel-body">
      						 <ul>
-     						 	<li><a href="pendingAppAdmin.html">Pending Appointment</a></li>
+     						 	<li><a href="/partials/pendingAppAdmin.html">Pending Appointment</a></li>
      						 	<li><a href="#">Add Admin</a></li>
-     						 	<li><a href="viewAdminAccount.html">View List Admins</a></li>
+     						 	<li><a href="/partials/viewAdminAccount.html">View List Admins</a></li>
      						 </ul>
      						 </div>
    
@@ -82,7 +82,7 @@
      						 <div class="panel-body">
      						 <ul>
      						 	<li><a href="#">Add Service</a></li>
-     						 	<li><a href="viewServiceAdmin.html">View Services</a></li>
+     						 	<li><a href="/partials/viewServiceAdmin.html">View Services</a></li>
      						 </ul>
      						 </div>
    
@@ -101,8 +101,8 @@
     					<div id="collapse40009" class="panel-collapse collapse">
      						 <div class="panel-body">
      						 <ul>
-     						 	<li><a href="addEmployeeAdmin.html">Add Employee</a></li>
-     						 	<li><a href="viewEmployeeAdmin.html">View Employee</a></li>
+     						 	<li><a href="/partials/addEmployeeAdmin.html">Add Employee</a></li>
+     						 	<li><a href="/partials/viewEmployeeAdmin.html">View Employee</a></li>
      						 </ul>
      						 </div>
    
@@ -121,8 +121,8 @@
     					<div id="collapse50009" class="panel-collapse collapse">
      						 <div class="panel-body">
      						 <ul>
-     						 	<li><a href="addRoomAdmin.html">Add Room</a></li>
-     						 	<li><a href="viewRoomAdmin.html">View Room</a></li>
+     						 	<li><a href="/partials/addRoomAdmin.html">Add Room</a></li>
+     						 	<li><a href="/partials/viewRoomAdmin.html">View Room</a></li>
      						 </ul>
      						 </div>
    
@@ -133,107 +133,68 @@
 		</div>
 		
 		<div class="rightContent">
-			<div class="mainTitle">
-				<h2>Pending Appointment's</h2>
+				<div class="mainTitle">
+				<h2>View Client's </h2>
 				<div class="addSign">
 				<a href="#">
 					<span class="glyphicon glyphicon-plus"></span>
 				</a>
 				</div>
 			</div>
-			<div class="appHolder">
-				<div class="appointment">
+			<div class="employeeContainerMaster">
+				<div class="employee">
 					<div class="panel-group">
 						<div class="panel panel-default">
 							<div class="panel-heading">
-									<label>December 27, 2016 3:00 PM </label>
+									<label>Client #1 Name </label>
 									<a data-toggle="collapse" href="#collapse1"><span class="caret"></span></a>
-									<div class="cname">
-										<label >Jonh Smith </label>
-									</div>
 									<div class="btnApp">
-										<button type="button" class="btn btn-success" name="apprPendingEvent">Approve</button>
-										<button type="button" class="btn btn-danger" name="rejPendingEvent">Reject</button>
 									</div>
 							</div>
 							<div id="collapse1" class="panel-collapse collapse">
 								<div class="panel-body">
-									<table>
-										<tr>
-											<td><label>Service X Treatment </label></td>
-											
-											<td><label>APPROVED</label></td>
-										</tr>
-										<tr>
-											<td><label>Employee X </label></td>
-										
-											<td><label>APPROVED</label></td>
-										</tr>
-										<tr>
-											<td><label>ROOM 4</label></td>
-											
-											<td><label>DECLINED</label></td>
-										</tr>
-										<tr>
-											<td><label>35 min</label></td>
-											
-											<td></td>
-										</tr>
-									</table>
+									<div class="cont">
+										<table>
+											<tr>
+												<td>First Name</td>
+												<td>Client Name</td>
+											</tr>
+											<tr>
+												<td>Last Name</td>
+												<td>Client Last</td>
+											</tr>
+											<tr>
+												<td>Email</td>
+												<td>email address</td>
+											</tr>
+											<tr>
+												<td>Password</td>
+												<td>client password</td>
+											</tr>
+											<tr>
+												<td>Birth date</td>
+												<td>Client Birthday</td>
+											</tr>
+										</table>
+										<div class="opt">
+										<div class="rmvEmp">
+											<button type="button" class="btn btn-danger">Remove Client</button>
+										</div>
+										<div class="saveBtn">
+											<button type="button" class="btn btn-default">Edit</button>
+										</div>
+									</div>
 								</div>
 							</div>
-						 </div>
-					</div>
+						</div>
+					 </div>
 				</div>
-				
-				<div class="appointment">
-					<div class="panel-group">
-						<div class="panel panel-default">
-							<div class="panel-heading">
-									<label>December 27, 2016 3:00 PM </label>
-									<a data-toggle="collapse" href="#collapse2"><span class="caret"></span></a>
-									<div class="cname">
-										<label >Jonh Smith2 </label>
-									</div>
-									<div class="btnApp">
-										<button type="button" class="btn btn-success" name="apprPendingEvent">Approve</button>
-										<button type="button" class="btn btn-danger" name="rejPendingEvent">Reject</button>
-									</div>
-							</div>
-							<div id="collapse2" class="panel-collapse collapse">
-								<div class="panel-body">
-									<table>
-										<tr>
-											<td><label>Service X Treatment </label></td>
-											
-											<td><label>APPROVED</label></td>
-										</tr>
-										<tr>
-											<td><label>Employee X </label></td>
-										
-											<td><label>APPROVED</label></td>
-										</tr>
-										<tr>
-											<td><label>ROOM 4</label></td>
-											
-											<td><label>DECLINED</label></td>
-										</tr>
-										<tr>
-											<td><label>35 min</label></td>
-											
-											<td></td>
-										</tr>
-									</table>
-								</div>
-							</div>
-						 </div>
-					</div>
-				</div>
-				
 			</div>
 		</div>
+		
+		</div>
 	</div>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
